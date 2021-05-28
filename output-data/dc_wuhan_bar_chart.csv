@@ -1,0 +1,11 @@
+city,type,value
+Wuhan,total_covid_deaths,3869
+New York City,total_covid_deaths,28043
+London,total_covid_deaths,15517
+Wuhan,total_covid_deaths_first_wave,3869
+New York City,total_covid_deaths_first_wave,17749
+London,total_covid_deaths_first_wave,6063
+Wuhan,total_excess_deaths_first_wave*,13457.3116354485
+New York City,total_excess_deaths_first_wave,25121.4285714286
+London,total_excess_deaths_first_wave,9695.57142857143
+Wuhan,total_reported_excess_deaths**,5954
