@@ -163,7 +163,8 @@ ggplot(cities, aes(x=date, col=city))+
   geom_line(aes(y=excess_deaths, col = 'Excess deaths'))+
   geom_line(aes(y=covid_deaths, col = "Covid-19 deaths"))+
   theme_minimal()+facet_grid(.~city)+
-  xlab("")+ylab("")+theme(legend.title = element_blank())
+  xlab("")+ylab("")+theme(legend.title = element_blank())+theme(legend.position = "bottom")
+ggsave("excess_and_covid_deaths_by_city.png", width = 8, height = 4)
 
 # Bar chart:
 # 1. Calculate total excess and covid-19 deaths
