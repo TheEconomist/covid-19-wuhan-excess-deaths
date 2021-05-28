@@ -57,6 +57,8 @@ ggplot(china[china$type == "Wuhan", ], aes(x=date, y=excess_deaths_total_for_are
 
 # Load China's official Wuhan data:
 library(readxl)
+# Source: https://github.com/canghailan/Wuhan-2019-nCoV
+# And for 2021+: http://wjw.wuhan.gov.cn/ztzl_28/fk/tzgg/202105/t20210528_1707704.shtml
 wuhan_official <- read_xlsx("source-data/wuhan_cases_deaths.xlsx") 
 wuhan_official$city <- "Wuhan"
 wuhan_official$country <- "China"
